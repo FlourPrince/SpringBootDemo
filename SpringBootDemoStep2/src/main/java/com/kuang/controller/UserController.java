@@ -26,7 +26,7 @@ public class UserController {
     
     @RequestMapping("/test")
     public String test() {
-    	log.info("test+++++");
+    	log.info("test+++++txt");
     	return "register";
     }
 }

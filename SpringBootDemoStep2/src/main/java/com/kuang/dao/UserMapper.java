@@ -17,5 +17,5 @@ public interface UserMapper {
      */
     @Select("SELECT * FROM User WHERE xuhao=#{xuhao}")
     public List<User> getUser(int xuhao);
-
+  
 }

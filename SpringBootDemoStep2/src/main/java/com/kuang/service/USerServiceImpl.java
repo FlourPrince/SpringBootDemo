@@ -11,9 +11,9 @@ public class USerServiceImpl implements UserService {
 	@Autowired
     UserMapper userMapper;
 
-    @Override
-    public List<User> getUser(int xuhao) {
-        return userMapper.getUser(xuhao);
-    }
+	   public List<User> getUser(int xuhao) {
+	        return userMapper.getUser(xuhao);
+	    }
+ 
     
 }
